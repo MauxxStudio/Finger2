@@ -1,0 +1,198 @@
+Identifiers,Address,Comment
+FG_SF,X0000,Falla guardamotor sector fresado
+FG_SP,X0001,Falla guardamotor sector pernsa
+FV_SF,X0002,Falla variador sector fresado
+FV_SP,X0003,Falla variador sector prensa
+FA_MF,X0004,Fin arranque motores
+SO1_CO,X0020,Sensor optico 1 cadena de oredenamiento
+SO2_CO,X0021,Sensor optico 2 cadena de oredenamiento
+SO3_CO,X0022,Sensor optico 3 cadena de oredenamiento
+SO4_CO,X0023,Sensor optico 4 cadena de oredenamiento
+SO5_CO,X0024,Sensor optico 5 cadena de oredenamiento
+GP_PE_PF,X0030,Golpe de puño, parada de emergencia pupitre fresado
+P_OFF_CP,X0031,Pulsador ON Cadena principal
+S_AV_CP,X0032,Selector avance cadena principal
+S_RE_CP,X0033,Selector retroceso cadena principal
+S_ON_MF,X0034,Selector ON motor de fresado
+S_ON_MAF,X0035,Selector ON automático fresado
+SI_CE,X0041,Sensor inductivo control de espesor
+SI_DCTB,X0042,Sensor inductivo desplazam, cinta transf. Block
+S_CONTPE,X0043,Sensor inductivo contador de perros
+SI_ALP,X0045,Sensor inductivos alineador de perros
+SEN_NIVEL,X0046,Sensor de nivel de lubricante
+GP_PE_CF,X0050,Golpe de puño pupitre corner feeder
+S_ON_CO,X0051,Selector ON cadena de ordenamiento
+GP_OF_CP,X0052,Golpe de puño Off cadena principal
+S1_AP_RP,X0053,Selector 1 apertura rolo prensa
+PR_AB1,X0056,Presostato airbag
+S_EN_PRU,X0060,Selector encolador modo prueba
+S_EN_AUT,X0061,Selector encolador modo automático
+P_MOV_CP,X0062,Pulsador ON cadena principal
+SI_ENCOL,X0066,Sensor optico encolador
+GP_PE_PP,X0070,Golpe de puño pupitre prensa
+S_ON_CS,X0071,Selector ON central hidráulica y sierras
+S_EL_ZF,X0072,Selector elevar zapata de frenado
+S_ON_RP,X0073,Selector ON rolos de prensa
+S2_AP_RP,X0074,Selector 2 apertura rolos prensa
+GP_P_LP,X0075,Golpe de puño parada linea de prensa
+S_ON_MAP,X0076,Selector ON modo auto prensado
+P_EL_SP,X0077,Pulsador elevar sierra prensa
+S_E_EX,X0100,Selector entrar expulsor
+S_S_EX,X0101,Selector Salir expulsor
+P_PR_MA,X0102,Pulsador prensado manual
+SO_FPRL,X0103,SO Final prensa ralenti larga
+SO_FPSL,X0104,SO final prensa stop larga
+GP_PE_FP,X0107,Golpe de puño Final de prensa
+SI_RHE,X0111,Sensor magnético rolo horizontal elevado
+SM_SPA,X0113,Sensor magnético sierra prensa elevada
+SM_SPB,X0114,Sensor magnético sierra prensa baja
+SM_PSE,X0115,Sensor magnético prensor sierra elevado
+SM_EXS,X0116,Sensor magnético expulsor afuera
+SM_EXE,X0117,Sensor magnético expulsor adentro
+SO_FPR,X0122,SO final prensa ralenti
+SO_FPS,X0123,Sensor opt final prensa Stop
+SI_PHR,X0124,Sensor ind prensa retraida
+PR_PPR,X0125,Presostato preprensa
+PR_PR,X0126,Presostato prensa
+PR_HIDR,X0127,No está
+ON_MF,Y0020,Relé ON motores fresado
+AV_TB,Y0021,Relé avance cinta transferencia de block
+RE_TB,Y0022,Relé retroceso cinta transferencia de block
+AV_CP,Y0023,Relé avance cadena principal
+RE_CP,Y0024,Relé retroceso cadena principal
+AV_CO,Y0025,Relé avance cinta ordenadora
+AV_RPP,Y0026,Relé avance rolos preprensa
+ON_CH,Y0027,Relé central hidraulica ON
+ON_SP,Y0030,Relé sierra prensa ON
+ON_SS1,Y0031,Relé sierra salida ON
+X_VRP,Y0032,X- Velocidad rolos prensa
+Y_VRP,Y0033,Y- Velocidad rolos prensa
+Z_VRP,Y0034,Z- Velocidad rolos prensa
+EV_LUBORD,Y0035,nada
+BALIZA,Y0036,
+SIRENA,Y0037,Sirena
+L_ON_MF,Y0040,Lámpara ON motores fresado
+L_ERROR,Y0041,Lámpara error
+L_PE_CF,Y0042,Lámpara parada de emergencia corner feeder
+EV_LUB,Y0046,Electroválvula lubricación cadena principal
+EV_ENCOL,Y0047,Electroválvula encolador
+L_PE_PP,Y0050,lámpara parada de emergenci pupitre prensa
+ON_VHA,Y0051,Relé válvula hidr. Avance
+ON_VHR,Y0052,Relé valvula hidr. Retroceso
+ON_VHACC,Y0053,nada
+ON_VHRCC,Y0054,nada
+EV_SE,Y0057,Electrovalvula saca expulsor
+EV_ARV,Y0060,Electroválvula apertura rolo vertical
+EV_ARH,Y0061,Electroválvula apertura rolo horizontal
+EV_BPZ,Y0062,Electroválvula baja presión zapata
+EV_APZ,Y0063,Electroválvula alta presión zapata
+EV_ESP,Y0064,Electroválvula elevar sierra prensa
+EV_BPS,Y0065,Electroválvula bajar prensor sierra
+EV_BPP,Y0066,Electroválvula bajar prensor prensa
+EV_EE,Y0067,Electroválvula entra expulsor
+F_EL_PUL,M0002,
+F_PR_MA,M0003,
+F_PUL_PR,M0004,
+F_CORTAR,M0005,
+F_PRE_AUT,M0006,
+F_AV_CP,M0007,
+F_DPR_AUT,M0008,
+F_VEL_BR,M0009,
+F_BALIZA,M0010,
+F_SIRENA,M0015,
+F_INENCO,M0016,
+F_ENCOLAN,M0017,
+F_OKENC,M0020,
+F_SIERRA,M0021,
+F_PERRO,M0023,
+F_GPCORN,M0024,
+F_ACERO,M0025,
+F_START,M0026,
+F_LUBRIC,M0027,
+F_ARRANQ,M0028,
+FS_ON_RP,M0029,
+FS_ON_CO,M0030,
+F_BAJA,M0032,
+F_SUBE,M0033,
+F_SUB,M0034,
+F_BAJ,M0035,
+F_LUBCO,M0036,
+ARRIBA,M0037,
+P_GUARDAM,M0040,
+P_TB_CP,M0041,
+P_MOT_FRE,M0042,
+P_REG_V,M0043,
+P_PUP_PRE,M0044,
+P_PRE_MAN,M0045,
+P_CI_PR,M0046,
+P_COR_SIE,M0047,
+P_CAM_VEL,M0048,
+P_BALIZA,M0049,
+P_ALARMAS,M0050,
+P_ENCOL,M0051,
+PG_DISPL,M0052,
+PG_CALCUL,M0053,
+ti_ini_pr,M0060,Temporiza inicio de prensado
+ini_ci_pr,M0061,Inicio de ciclo automatico
+INI CI_MAN,M0062,inicio ciclo manual prensado
+EXPULSAR,M0063,expulsar despues del corte
+FIN_CORTE,M0065,
+T_PO_MF,T0001,
+T_ARRANQ,T0002,
+T_BPP,T0003,
+T_PRENSA,T0004,
+T_R_VHR,T0005,
+T_EXE,T0006,
+T_MUESCOL,T0007,
+T_CORTE,T0008,
+T_OFF_BAL,T0009,
+T_ON_BAL,T0010,
+T_SIRENA,T0013,
+T_CHANGE,T0015,
+T_ABG,T0016,
+T_MUESPE,T0017,
+T_LUBRON,T0018,
+T_LUBROFF,T0019,
+T_LUBONCO,T0020,
+T_LUBOFCO,T0021,
+T_OFF_EN,T0200,
+T_ON_EN,T0201,
+R_VEL_RO,D0010,
+R_ALARMA,D0011,
+R_ALARMA2,D0012,
+VEL_0,D0410,
+VEL_1,D0411,
+VEL_2,D0412,
+VEL_3,D0413,
+VEL_4,D0414,
+VEL_5,D0415,
+VEL_PC,D0417,
+R_PERRMIN,D0423,
+R_MLINEAL,D0424,
+R_BLANKS,D0425,
+R_ENCOLA,D0426,
+VOLUMEN,D0427,
+R_TEMPPE,D0430,
+LARGURA,D0433,
+ESPESOR,D0434,
+COMPRIM,D0435,
+R_LUBRON,D0436,
+R_LUBROFF,D0437,
+R_TEXE,D0438,
+R612,D0439,
+REGISTRO,D0449,
+R_COLADA,D0451,
+R_BACKOL,D0452,
+R_PERIOD,D0455,
+R_TEMPEN,D0456,
+R_ACERO,D0457,
+PUNTERO,D0490,
+TP_PRENSA,D0500,
+TP_EXE,D0501,
+TP_PRECOL,D0502,
+TP_COLA,D0503,
+TP_CHANGE,D0504,
+TP_LUBRON,D0505,
+TP_LUBROF,D0506,
+TP_LUBOCO,D0507,
+TP_LUBFCO,D0508,
